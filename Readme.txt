@@ -12,7 +12,7 @@ CREATE TABLE users (
     created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP
 );
 
-CREATE TABLE user_details (
+CREATE TABLE user_expense (
     userid VARCHAR(50) NOT NULL,  -- Match the datatype with the users table's userid
     expense_name VARCHAR(255) NOT NULL,
     year INT NOT NULL,
